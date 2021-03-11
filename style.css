@@ -1,0 +1,34 @@
+#tabela
+{
+    background-color:#535353;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    width: 400px;
+    height: 200px;
+}
+
+tr:nth-child(odd) 
+{
+    background-color: #9c9c9c;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #bbbbbb;
+}
+#logo
+{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+
+    top:10px;
+    left:4%;
+
+}
+
+#logo img
+{
+    max-height:30px;
+}
